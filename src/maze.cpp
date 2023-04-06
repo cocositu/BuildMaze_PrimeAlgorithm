@@ -59,10 +59,10 @@ int  main(){
 
 	initMaze(&maze);
 	createMaze(maze);
-	drawMaze(maze, MAZE_STYLE_WALL);
-	
+	drawMaze(maze, MAZE_STYLE_GRID);
 	getch();
-	closegraph();
+	getch();
+	//closegraph();
 	return 0;
 }
 
