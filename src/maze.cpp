@@ -59,10 +59,13 @@ int  main(){
 
 	initMaze(&maze);
 	createMaze(maze);
-	drawMaze(maze, MAZE_STYLE_GRID);
+	drawMaze(maze, MAZE_STYLE_WALL);
+	//printf("HelloWorld\n");
 	getch();
 	getch();
-	//closegraph();
+	int i = 0x01;
+	printf("...%d\n",i);
+	closegraph();
 	return 0;
 }
 
