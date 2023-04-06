@@ -62,7 +62,6 @@ int  main(){
 	drawMaze(maze, MAZE_STYLE_WALL);
 
 	getch();
-	getch();
 	closegraph();
 	return 0;
 }
