@@ -1,7 +1,0 @@
-[
-{
-  "directory": "D:/Project/NUS_OSTC/BuildMaze_PrimeAlgorithm/build/src",
-  "command": "D:\\Software\\VScode\\mingw64\\bin\\g++.exe  @CMakeFiles/MyProject.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\MyProject.dir\\maze.cpp.obj -c D:\\Project\\NUS_OSTC\\BuildMaze_PrimeAlgorithm\\src\\maze.cpp",
-  "file": "D:/Project/NUS_OSTC/BuildMaze_PrimeAlgorithm/src/maze.cpp"
-}
-]
