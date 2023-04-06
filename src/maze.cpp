@@ -59,7 +59,7 @@ int  main(){
 
 	initMaze(&maze);
 	createMaze(maze);
-	drawMaze(maze, MAZE_STYLE_GRID);
+	drawMaze(maze, MAZE_STYLE_WALL);
 	getch();
 	getch();
 	//closegraph();
