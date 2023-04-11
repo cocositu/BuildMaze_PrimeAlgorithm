@@ -63,7 +63,7 @@ void fun(Maze* maze);
 void drawMaze(Maze, MazeStyle);
 
 int	main(void){
-
+	srand(time(NULL));
 	initCanvas(&cur_Canvas, maze);
 	initMaze(&maze);
 	fun(&maze);
