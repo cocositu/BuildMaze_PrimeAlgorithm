@@ -1,7 +1,7 @@
 # CMakeLists.txt in the src directory
 
 # Define the sources for the executable
-set(SOURCES maze.cpp)
+set(SOURCES maze.cpp UnionFindSet.cpp)
 
 # Define the name of the executable
 add_executable(MyProject ${SOURCES})
